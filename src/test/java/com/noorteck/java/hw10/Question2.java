@@ -13,7 +13,7 @@ public class Question2 {
 		} else if (gender == 'F') {
 			System.out.println("Female");
 		} else {
-			System.out.println("Error");
+			System.out.println("Error.");
 		}
 	}
 
