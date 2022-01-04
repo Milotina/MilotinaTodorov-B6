@@ -8,6 +8,7 @@ public class Question4 {
 	}
 
 	public static void getDoWhileLoopResult(int minNum, int maxNum) {
+		System.out.println("Numbers are:");
 		
 		do {
 			System.out.println(minNum);
