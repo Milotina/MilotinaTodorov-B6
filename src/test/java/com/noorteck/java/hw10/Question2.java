@@ -8,13 +8,14 @@ public class Question2 {
 	}
 
 	public static void getGender(char gender) {
-		if (gender == 'm') {
-			System.out.println("Male");
-		} else if (gender == 'F') {
+
+		if (gender == 'f' || gender == 'F') {
 			System.out.println("Female");
+		} else if (gender == 'm' || gender == 'M') {
+			System.out.println("Male");
 		} else {
 			System.out.println("Error");
+
 		}
 	}
-
 }

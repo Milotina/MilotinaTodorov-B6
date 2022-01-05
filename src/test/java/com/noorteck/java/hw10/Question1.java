@@ -23,7 +23,7 @@ public class Question1 {
 		} else if (mathSign == '%') {
 			System.out.println(numOne + " % " + numTwo + " = " + (numOne % numTwo));
 		} else {
-			System.out.println("Error");
+			System.out.println("Error.");
 		}
 	}
 
