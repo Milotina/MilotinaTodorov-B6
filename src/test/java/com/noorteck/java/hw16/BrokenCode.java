@@ -4,7 +4,7 @@ public class BrokenCode {
 
 	public static void main(String[] args) { // correct main method->should be main
 
-		//we should pass only 2 values here of int type, not double, no need to declare new memory location for void
+		//we should pass only 2 values here of int type, not double
 		int addResult = addTwoNumbers(2, 4);
 
 		System.out.println(addResult);
