@@ -6,14 +6,10 @@ public class HomeworkQ11 {
 
 		String result = "";
 
-		if (str.equals("Java Pro")) {
-			result = str.substring(0, 5) + newChar + str.substring(6);
-		} else if (str.equals("Lazy mode")) {
-			result = str.substring(0, 5) + newChar + str.substring(6);
-		} else if (str.equals("Training")) {
-			result = newChar + str.substring(1);
+		if (str == str) {
+			result = str.replace(oldChar, newChar);
 		}
-
+		
 		return result;
 
 	}

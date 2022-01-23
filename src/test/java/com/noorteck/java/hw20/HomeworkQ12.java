@@ -4,10 +4,8 @@ public class HomeworkQ12 {
 
 	public static void replaceStr(String strOne, String oldStr, String newStr) {
 
-		if (strOne.equals("I cannot do it")) {
-			System.out.println(strOne.substring(0, 2) + newStr + strOne.substring(8));
-		} else if (strOne.equals("Tomorrow is my day")) {
-			System.out.println(newStr + strOne.substring(8));
+		if (strOne.contains(oldStr)) {
+			System.out.println(strOne.replace(oldStr, newStr));
 		}
 
 	}
