@@ -6,9 +6,9 @@ public class HomeworkQ8 {
 
 		char result = ' ';
 
-		if (indexNum <= strOne.length()) {
+		if (indexNum < strOne.length()) {
 			result = strOne.charAt(indexNum);
-		} else if (indexNum > strOne.length()) {
+		} else if (indexNum >= strOne.length()) {
 			result = '?';
 		}
 
