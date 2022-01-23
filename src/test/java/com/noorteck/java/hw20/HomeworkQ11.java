@@ -6,7 +6,7 @@ public class HomeworkQ11 {
 
 		String result = "";
 
-		if (str == str) {
+		if (str.indexOf(oldChar) != -1) {
 			result = str.replace(oldChar, newChar);
 		}
 		
