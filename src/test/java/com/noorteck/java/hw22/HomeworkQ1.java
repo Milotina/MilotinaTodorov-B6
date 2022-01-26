@@ -9,7 +9,7 @@ public class HomeworkQ1 {
 		if (strOne != null) {
 			result = strOne.toUpperCase();
 		} else {
-			result = "null";
+			result = null;
 		}
 		return result;
 

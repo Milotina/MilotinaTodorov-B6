@@ -9,7 +9,7 @@ public class HomeworkQ4 {
 		if (str != null) {
 			result = str.substring(startingIndex, endingIndex);
 		} else {
-			result = "null";
+			result = null;
 		}
 
 		return result;

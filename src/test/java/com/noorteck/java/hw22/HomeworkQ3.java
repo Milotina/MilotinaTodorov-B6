@@ -9,7 +9,7 @@ public class HomeworkQ3 {
 		if (str != null && (str.indexOf(oldChar) != -1)) {
 			result = str.replace(oldChar, newChar);
 		} else {
-			result = "null";
+			result = null;
 		}
 
 		return result;

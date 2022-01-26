@@ -9,7 +9,7 @@ public class HomeworkQ5 {
 		if (strOne != null) {
 			result = strOne.trim();
 		} else {
-			result = "null";
+			result = null;
 		}
 		
 		return result;
