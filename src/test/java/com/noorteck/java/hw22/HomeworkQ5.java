@@ -6,10 +6,10 @@ public class HomeworkQ5 {
 
 		String result = "";
 
-		if (strOne == null) {
-			result = "null";
-		} else {
+		if (strOne != null) {
 			result = strOne.trim();
+		} else {
+			result = "null";
 		}
 		
 		return result;

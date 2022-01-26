@@ -6,9 +6,7 @@ public class HomeworkQ2 {
 
 		boolean result = false;
 
-		if (strOne == null || strTwo == null) {
-			result = false;
-		} else if (strOne.endsWith(strTwo)) {
+		if (strOne != null && strTwo != null && strOne.endsWith(strTwo)) {
 			result = true;
 		}
 

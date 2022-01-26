@@ -6,10 +6,10 @@ public class HomeworkQ1 {
 
 		String result = "";
 
-		if (strOne == null) {
-			result = "null";
-		} else {
+		if (strOne != null) {
 			result = strOne.toUpperCase();
+		} else {
+			result = "null";
 		}
 		return result;
 

@@ -6,10 +6,10 @@ public class HomeworkQ4 {
 
 		String result = "";
 
-		if (str == null) {
-			result = "null";
-		} else {
+		if (str != null) {
 			result = str.substring(startingIndex, endingIndex);
+		} else {
+			result = "null";
 		}
 
 		return result;

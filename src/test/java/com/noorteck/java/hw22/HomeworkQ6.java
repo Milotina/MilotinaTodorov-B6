@@ -6,9 +6,7 @@ public class HomeworkQ6 {
 
 		boolean result = false;
 
-		if (strOne == null) {
-			result = false;
-		} else if (strOne.endsWith("ng")) {
+		if (strOne != null && (strOne.endsWith("ng"))) {
 			result = true;
 		}
 

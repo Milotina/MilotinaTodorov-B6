@@ -6,10 +6,10 @@ public class HomeworkQ3 {
 
 		String result = "";
 
-		if (str == null) {
-			result = "null";
-		} else if (str.indexOf(oldChar) != -1) {
+		if (str != null && (str.indexOf(oldChar) != -1)) {
 			result = str.replace(oldChar, newChar);
+		} else {
+			result = "null";
 		}
 
 		return result;
