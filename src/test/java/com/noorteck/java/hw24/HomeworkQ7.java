@@ -7,8 +7,8 @@ public class HomeworkQ7 {
 		int result = 0;
 
 		for (int i = 0; i < number.length; i++) {
-			int index = number[i];
-			if (elementValue == index) {
+		
+			if (elementValue == number[i]) {
 				result = i;
 				break;
 			} else {
