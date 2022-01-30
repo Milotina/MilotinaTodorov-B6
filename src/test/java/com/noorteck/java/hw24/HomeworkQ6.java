@@ -6,14 +6,21 @@ public class HomeworkQ6 {
 
 		boolean result = false;
 
+		int fiveCount = 0; 
+		int twoCount = 0; 
+
 		for (int i = 0; i < number.length; i++) {
-			for (int x = 0; x < number.length; x++) {
-				if (number[i] == 2 && number[i] == number[x] && i != x) {
-					result = true;
-				} else if (number[i] == 5 && number[i] == number[x] && i != x) {
-					result = true;
-				}
+			
+			if (number[i] == 2) {
+				twoCount++;
+				
+			} else if (number[i] == 5) {
+				fiveCount++;
 			}
+		}
+
+		if (twoCount == 2 || fiveCount == 2) {
+			result = true;
 		}
 		return result;
 
